@@ -1,0 +1,92 @@
+.drawer, .showing, .navLinks, .navItems, .navLinks li {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.drawer {
+    height: 0%;
+    width: 0%;
+    position: fixed;
+    top: 10vh;
+    left: -100%;
+    background-color: teal;
+    transition: all 1.0s;
+    z-index: 400;
+}
+
+.showing {
+    width: 75%;
+    position: fixed;
+    height: 90vh;
+    top: 10vh;
+    left: 0;
+    background-color: teal;
+    transition: all 1.0s;
+    z-index: 400;
+}
+
+
+.navLinks {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    widows: 100%;
+    border-width: 5rem;
+    list-style: none;
+    /* background-color: red; */
+}
+
+
+.navLinks li {
+    border-width: 2px;
+    margin-top: 0.2rem;
+    height: 4rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+}
+
+.navItems {
+    color: white;
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    background-color: tomato;
+    transition: all 0.5;
+}
+
+.navItemsButton {
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    background-color: tomato;
+    transition: all 0.5;
+}
+
+
+.navItemsButton:hover {
+    color: teal;
+}
+.navItems:hover {
+    color: teal;
+}
+
+@media only screen and (min-width: 801px) {
+    .showing{
+        display: none;
+        flex-direction: column;
+    }
+}

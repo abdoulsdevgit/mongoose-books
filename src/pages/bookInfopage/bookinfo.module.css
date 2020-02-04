@@ -1,0 +1,11 @@
+.main {
+    width: 50%;
+    margin: auto auto;
+    background-color: slategray;
+    padding: 2em;
+}
+
+.review {
+    width: 100%;
+    font-size: 1rem;
+}

@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+html, body {
+  background: linear-gradient(to bottom right, teal, tomato);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow-y: scroll;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.error {
+  margin: 2em auto;
+  color: red;
+}
+
+.main {
+  width: 100%;
 }

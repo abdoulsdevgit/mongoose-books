@@ -9,3 +9,11 @@
 
 ![Imgur](https://i.imgur.com/yMyuHGp.png)
 
+### Allows User to Search for a Book using the author, ISBN # or book title.
+
+![Imgur](https://i.imgur.com/VcNiBvg.png)
+
+
+### Responsive Design
+![Imgur](https://i.imgur.com/7FmCQjR.png)
+
